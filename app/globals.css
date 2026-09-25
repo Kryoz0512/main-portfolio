@@ -46,6 +46,10 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+
+
+  --font-poppins:var(--font-poppins);
 }
 
 :root {
@@ -127,4 +131,12 @@
   html {
     @apply font-sans;
   }
+}
+
+@theme inline {
+  --font-display: 'Arial', sans-serif;
+}
+
+.font-display {
+  font-family: Arial, Helvetica, sans-serif;
 }
