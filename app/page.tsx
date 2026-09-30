@@ -214,19 +214,24 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="font-display flex justify-center w-full border border-[#8d7ba3] bg-[#1a0b2e]" id="thesis">
-        <div className="grid gap-10 md:grid-cols-12 mt-20 mb-20">
-          <p className="md:col-span-3 pt-2 text-sm uppercase tracking-[0.2em] text-[#8d7ba3]">
-            03 / THESIS
-          </p>
-          <div className="md:col-span-9 flex flex-col gap-8">
-            <h2 className="max-w-4xl text-4xl font-medium uppercase leading-[1.05] tracking-tight text-white md:text-5xl lg:text-6xl">
-              SNHS DIGISTAR | SANTOR NATIONAL HIGHSCHOOL SCHOOL PORTAL
-            </h2>
-            <p className="max-w-xl text-lg leading-relaxed text-white/70">
-              A digital integration for guidance, information, student tracking,
-              academics and records
+      <section
+        id="thesis"
+        className="w-full border-y border-[#8d7ba3] bg-[#1a0b2e]"
+      >
+        <div className={`${container} py-16 md:py-24`}>
+          <div className="grid gap-6 md:grid-cols-12 md:gap-10">
+            <p className="pt-2 text-sm uppercase tracking-[0.2em] text-[#8d7ba3] md:col-span-3">
+              03 / Thesis
             </p>
+            <div className="flex flex-col gap-6 md:col-span-9 md:gap-8">
+              <h2 className="max-w-4xl break-words text-3xl font-medium uppercase leading-[1.05] tracking-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
+                SNHS DIGISTAR | SANTOR NATIONAL HIGHSCHOOL SCHOOL PORTAL
+              </h2>
+              <p className="max-w-xl text-base leading-relaxed text-white/70 md:text-lg">
+                A digital integration for guidance, information, student
+                tracking, academics and records
+              </p>
+            </div>
           </div>
         </div>
       </section>
